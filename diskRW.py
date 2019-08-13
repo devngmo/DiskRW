@@ -8,4 +8,4 @@ if len(sys.argv) > 1:
     if not os.path.exists(testPath):
         print('Invalid path: "%s"' % testPath)
     else:
-        drwengine.testRWOnPath(testPath, 5, 5, [1024, 10240, 102400, 1024000, 10240000])
+        drwengine.testRWOnPath(testPath, 5, 50, [1024, 10240, 102400, 1024000, 10240000])
